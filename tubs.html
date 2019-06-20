@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Quicklinks</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 <body>
@@ -15,10 +16,26 @@
 </ul>
 
 
+  <!-- Top Navigation Menu -->
+  <div class="topnav">
+    <a href="index.html" class="active">Home</a>
+    <div id="myLinks">
+      <a class="active" href="tubs.html">TU Braunschweig</a>
+      <a href="viajes.html">Viajes</a>
+      <a href="about.html">About</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+
+
 <table class = "Main_Table">
   <tbody>
     <tr>
-      <td> <a class="supercontainer" href="https://www.tu-braunschweig.de/index.html">
+      <td> 
+        <a class="supercontainer" href="https://www.tu-braunschweig.de/index.html">
             <div class = "Link_Container" background-color="#be1d3c">
               <p>
               <img src="TU BS Logo.jpg" height="100 px" align="middle">
@@ -74,8 +91,70 @@
   </tbody>
 </table>
 
+<div class = "Mobile_View">
+    <a class="supercontainer" href="https://www.tu-braunschweig.de/index.html">
+            <div class = "Link_Container" background-color="#be1d3c">
+              <p>
+              <img src="TU BS Logo.jpg" height="100 px" align="middle">
+              TU Braunschweig</p>
+            </div>
+          </a>
+    <a class="supercontainer" href="https://aura.sz.etc.tu-bs.de">
+            <div class = "Link_Container">
+              <p>
+              <img src="TU BS Logo.jpg" height="100 px" align="middle">
+              AURA</p>
+            </div>
+          </a>
+    <a class="supercontainer" href="https://www.tu-braunschweig.de/sportzentrum">
+            <div class = "Link_Container">
+              <p>
+              <img src="TU BS Logo.jpg" height="100 px" align="middle">
+              TU Sportzentrum</p>
+            </div>
+          </a>
+    <a class="supercontainer" href="http://www.stw-on.de/braunschweig/essen/menus/mensa-1">
+            <div style="background-color: white" class = "Link_Container">
+              <p style="color: red">
+              <img src="studentenwerk.jpg" height="100 px" align="center">
+              Mensa</p>
+            </div>
+          </a>
+    <a class="supercontainer" href="https://studip.tu-braunschweig.de">
+            <div style="background-color: white" class = "Link_Container">
+              <p>
+              <img src="studip.png" height="100 px" align="middle">
+              </p>
+            </div>
+          </a>
+    <a class="supercontainer" href="https://www.tu-braunschweig.de/sprachenzentrum">
+            <div style="background-color: #f7f7f7" class = "Link_Container">
+              <p style="color: grey">
+              <img src="Sprachen.png" height="100 px" align="middle">
+              Sprachzentrum</p>
+            </div>
+          </a>
+    <a class="supercontainer" href="https://external.sz.etc.tu-bs.de/moodle">
+            <div style="background-color: #f7f7f7" class = "Link_Container">
+              <p style="color: grey">
+              <img src="Sprachen.png" height="100 px" align="middle">
+              Moodle</p>
+            </div>
+          </a>
+</div>
 
 
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 
 
 </body>
