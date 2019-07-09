@@ -46,6 +46,7 @@ body {
 
 .supercontainer{
   text-decoration: none;
+  box-decoration-break: none;
 }
 
 .Link_Container {
