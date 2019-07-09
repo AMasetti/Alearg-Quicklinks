@@ -52,11 +52,18 @@
   border-radius: 5px;
 }
 
+
+.Link_Container:hover {
+
+  box-shadow: 20px 20px 20px rgb(0,0,0,0.2);
+
+}
+
 .Link_Container p{
   color: white;
-  text-decoration: none!important;
+  /*text-decoration: none!important;*/
   font-family: Verdana; 
-  font-size: 23px;
+  font-size: 35px;
   align-self: middle;
 
 }
@@ -154,10 +161,13 @@
     display: block;
   }
   .Link_Container p{
-  
-  font-size: 35px;
-  align-self: middle;
+    padding: 10px;
+    font-size: 75px;
+    align-self: middle;
 
-}
+  }
+  .Link_Container {
+    height: 200px;
+  }
 
 }

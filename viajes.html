@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Quicklinks</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 <body>
 
 <ul class = "menubar">
-  <li><a href="index.html">Home</a></li>
+  <li><a href="index.html"></a></li>
   <li><a href="tubs.html">TU Braunschweig</a></li>
   <li><a class="active" href="viajes.html">Viajes</a></li>
   <!-- <li><a href="contactos.html">Contactos</a></li> -->
   <li><a href="about.html">About</a></li>
 </ul>
+
+  <!-- Top Navigation Menu -->
+  <div class="topnav">
+    <a href="index.html" class="active">Home</a>
+    <div id="myLinks">
+      <a class="active" href="tubs.html">TU Braunschweig</a>
+      <a href="viajes.html">Viajes</a>
+      <a href="about.html">About</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
 
 
 <table class = "Main_Table">
@@ -58,26 +73,36 @@
 <div class = "Mobile_View">
     <div style="background-color: #73d800" class = "Link_Container" >
       <p>
-      <img src="flixbus.jpg" height="100 px" align="middle">
+      <img src="flixbus.jpg" height="150" align="middle">
       Flixbus</p>
     </div>
     <div style="background-color: #73d800" class = "Link_Container">
       <p>
-      <img src="flixbus.jpg" height="100 px" align="middle">
+      <img src="flixbus.jpg" height="150" align="middle">
       InterFlix</p>
     </div>
     <div style="background-color: #f01414" class = "Link_Container">
       <p>
-      <img src="db.jpg" height="100 px" align="middle">
+      <img src="db.jpg" height="150" align="middle">
       Deustche Bahn</p>
     </div>
     <div style="background-color: #22356b" class = "Link_Container">
       <p>
-      <img src="ryanair.png" height="100 px" align="middle">
+      <img src="ryanair.png" height="150" align="middle">
       Ryanair</p>
     </div>
 </div>
 
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 
 
 </body>
