@@ -45,7 +45,7 @@ body {
 /*===Links==========================================================================*/
 
 .supercontainer{
-  text-decoration: none;
+
 }
 
 .Link_Container {
@@ -55,7 +55,8 @@ body {
   background-color: #be1d3c;
   box-shadow: 8px 8px 5px rgb(0,0,0,0.5);
   padding-left: 25px;
-  margin: 20px;
+  padding-right: 25px;
+  margin: 10px;
   border-radius: 25px;
 }
 
@@ -135,7 +136,7 @@ body {
   color: white;
   padding: 14px 36px;
   text-decoration: none;
-  font-size: 5vh;
+  font-size: 4vh;
   display: block;
   height: 8vh;
   align-content: center;
@@ -174,7 +175,7 @@ body {
     display: block;
   }
   .Link_Container p{
-    padding-top: 25px;
+    padding: 5px;
     font-size: 50px;
     align-self: middle;
 
