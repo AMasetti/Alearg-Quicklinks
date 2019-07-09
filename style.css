@@ -51,7 +51,7 @@ body {
 
 .Link_Container {
   height: 100px;
-  width: 95%;
+  width: 90%;
   align-items: middle;
   background-color: #be1d3c;
 
@@ -185,6 +185,12 @@ body {
   }
   .Link_Container {
     height: 200px;
+    box-shadow: none;
+  }
+
+  .Link_Container:hover {
+    height: 200px;
+    box-shadow: none;
   }
 
 }
