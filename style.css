@@ -10,6 +10,12 @@
   box-shadow: 7px 7px 3px rgb(0,0,0,0.2);
 }
 
+body {
+  padding: 0;
+  margin: 0;
+ 
+}
+
 .menubar li {
   float: left;
 }
@@ -46,16 +52,16 @@
   width: 95%;
   align-items: middle;
   background-color: #be1d3c;
-  box-shadow: 7px 7px 3px rgb(0,0,0,0.2);
+  box-shadow: 8px 8px 5px rgb(0,0,0,0.5);
   padding-left: 5px;
   margin-right: 15px;
-  border-radius: 5px;
+  border-radius: 25px;
 }
 
 
 .Link_Container:hover {
 
-  box-shadow: 20px 20px 20px rgb(0,0,0,0.2);
+  box-shadow: 16px 16px 5px rgb(0,0,0,0.5);
 
 }
 
@@ -161,8 +167,8 @@
     display: block;
   }
   .Link_Container p{
-    padding: 10px;
-    font-size: 75px;
+    padding-top: 25px;
+    font-size: 50px;
     align-self: middle;
 
   }
