@@ -47,10 +47,11 @@ body {
 .supercontainer{
   text-decoration: none;
   box-decoration-break: none;
+  padding-top: 10px;
 }
 
 .Link_Container {
-  height: 100px;
+  height: 90px;
   width: 90%;
   align-items: middle;
   background-color: #be1d3c;
@@ -59,7 +60,8 @@ body {
   box-shadow: 8px 8px 5px rgb(0,0,0,0.5);
   padding-left: 25px;
   padding-right: 25px;
-  margin: 10px;
+
+  margin: 15px;
   border-radius: 25px;
 }
 
@@ -76,6 +78,8 @@ body {
   font-family: Verdana; 
   font-size: 35px;
   align-self: middle;
+  margin-top: 10px;
+  padding: 20px;
 
 }
 
@@ -181,7 +185,7 @@ body {
     display: block;
   }
   .Link_Container p{
-    padding: 5px;
+    padding: 25px;
     font-size: 50px;
     align-self: middle;
 
